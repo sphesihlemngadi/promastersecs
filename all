@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROMASTER VIP SECURITY</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <h1>PROMASTER VIP SECURITY</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<main>
+    <!-- Main content of the homepage will go here -->
+</main>
+
+</body>
+</html>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header {
+    background-color: black;
+    color: white;
+    padding: 10px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: yellow;
+}
+<main>
+    <section id="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="service">
+                <h3>Armed Response</h3>
+                <p>Our armed response teams are on standby 24/7, ready to respond swiftly to any security threats or emergencies.</p>
+            </div>
+            <div class="service">
+                <h3>VIP Protection</h3>
+                <p>We provide discreet and reliable VIP protection services tailored to the unique needs of our clients.</p>
+            </div>
+            <div class="service">
+                <h3>CCTV Monitoring</h3>
+                <p>Our state-of-the-art CCTV monitoring systems offer round-the-clock surveillance, providing an extra layer of security for homes, businesses, and public spaces.</p>
+            </div>
+        </div>
+    </section>
+</main>
+#services {
+    background-color: #f5f5f5;
+    padding: 50px 0;
+}
+
+#services .container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+#services h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.service {
+    margin-bottom: 30px;
+}
+
+.service h3 {
+    color: #333;
+}
+
+.service p {
+    color: #666;
+}
+<main>
+    <section id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>PROMASTER VIP SECURITY is a leading provider of comprehensive security solutions in Durban. With years of experience and a team of highly trained professionals, we are dedicated to safeguarding our clients' interests and ensuring peace of mind.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Address: 37th Avenue, 3610 Durban</p>
+            <p>Phone: [Insert phone number]</p>
+            <p>Email: [Insert email address]</p>
+        </div>
+    </section>
+</main>
+#about,
+#contact {
+    padding: 50px 0;
+}
+
+#about h2,
+#contact h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#about p,
+#contact p {
+    text-align: center;
+    margin-bottom: 20px;
+}
